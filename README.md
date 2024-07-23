@@ -12,6 +12,10 @@ yarn dev
 pnpm dev
 # or
 bun dev
+# to run jsonServer
+json-server src/jsonServer/posts.json -p 3042
+# to run the remark and remark-html lib
+npm i remark remark-html or yarn add remark remark-html
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
